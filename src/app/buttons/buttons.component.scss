@@ -1,0 +1,54 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+  
+    // Component general styles
+    .button-section {
+        @apply my-10 pb-3 border-b-2
+    }
+
+    // ----------- Buttons ---------------
+    // Primary
+    .btn-primary {
+      @apply bg-custom-black text-white min-w-[90px] h-[50px] py-[13px] px-[20px] font-poppins-semibold rounded-[4px] text-base 
+      disabled:outline disabled:outline-1 disabled:opacity-50 disabled:bg-white disabled:text-custom-black;
+    }
+
+    // Secondary button
+    .btn-secondary {
+      @apply bg-white text-custom-black min-w-[90px] h-[50px] py-[13px] px-[20px] font-poppins-semibold rounded-[4px] text-base outline 
+      outline-1 disabled:opacity-50;
+      }
+    
+      // Chevron button with Tailwind CSS
+    .btn-chevron {
+      @apply bg-white text-custom-black min-w-[90px] h-[50px] py-[13px] px-[20px] font-poppins-semibold rounded-[4px] text-custom-light-green
+      outline outline-1 flex justify-center items-center disabled:opacity-50 disabled:text-custom-black;
+    }
+    .btn-chevron span {
+      @apply ml-auto
+    } 
+    .chevron-img {
+      @apply ml-auto w-[12px] h-[6px]
+    }
+
+    // Tertiary buttons
+    .btn-tertiary-12 {
+        @apply font-poppins-semibold text-[12px] underline disabled:opacity-50
+    }
+    .btn-tertiary-16 {
+        @apply font-poppins-semibold text-base underline disabled:opacity-50
+    }
+
+    // Back button
+    .btn-chevron-back {
+        @apply bg-white text-custom-black font-poppins-semibold
+         flex justify-center items-center disabled:opacity-50  
+      }
+      .chevron-img-back {
+        @apply w-[6px] h-[12px] mr-[6px]
+      }
+
+  }

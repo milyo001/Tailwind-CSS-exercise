@@ -1,0 +1,52 @@
+<section class="custom-scss-class">
+  <div>
+    <h1 class="text-center text-xl m-3 font-bold">All Tailwind CSS <a class="underline" target="_blank"
+        href="https://tailwind.build/classes">Cheat sheet here</a></h1>
+  </div>
+  <section class="text-center border border-purple-700 m-2 rounded-2xl">
+    <h2 class="text-center text-xl m-1 font-bold">Tailwind classes playground</h2>
+    <ul class="list text-center p-2">
+      <li class="bg-green-500">Test bg-green-500 class.</li>
+      <li class="bg-green-300">Test bg-green-300 class.</li>
+      <li class="py-5 text-xl bg-orange-400 text-blue-700">Test <span class="font-bold">py-5 class</span> (applies
+        pargin-top and pargin-bottom)., <span class="font-bold">text-xl class,</span> and <span
+          class="font-bold">text-blue-700.</span></li>
+      <li class="text-xl bg-black text-white">Test text-white and bg-black</li>
+    </ul>
+    <h2 class="block text-center text-xl p-2 font-bold">Tailwind buttons playground</h2>
+    <div class="flex justify-between m-2">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+        Button rounded
+      </button>
+      <button
+        class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+        Button outline
+      </button>
+      <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+        Button bordered
+      </button>
+      <div class="inline-flex">
+        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
+          Prev
+        </button>
+        <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
+          Next
+        </button>
+      </div>
+      <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+        <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+        <span>Download</span>
+      </button>
+    </div>
+  </section>
+</section>
+
+<section>
+  <div class="flex justify-center m-3">
+    <h2 class="text-3xl font-bold">Demo playground</h2>
+  </div>
+  <ul>
+    <li><app-buttons></app-buttons></li>
+  </ul>
+</section>
