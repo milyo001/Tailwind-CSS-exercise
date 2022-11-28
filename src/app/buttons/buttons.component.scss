@@ -4,11 +4,6 @@
 
 @layer components {
   
-    // Component general styles
-    .button-section {
-        @apply my-10 pb-3 border-b-2
-    }
-
     // ----------- Buttons ---------------
     // Primary
     .btn-primary {
@@ -28,10 +23,10 @@
       outline outline-1 flex justify-center items-center disabled:opacity-50 disabled:text-custom-black;
     }
     .btn-chevron span {
-      @apply ml-auto
+      @apply ml-auto;
     } 
     .chevron-img {
-      @apply ml-auto w-[12px] h-[6px]
+      @apply ml-auto w-[12px] h-[6px];
     }
 
     // Tertiary buttons

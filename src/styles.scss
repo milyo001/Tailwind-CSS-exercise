@@ -6,6 +6,15 @@
   
   // Apply global styles here like the example below
 
+  // Component general styles examples
+  .demo-section {
+    @apply my-10 pb-3 border-b-2;
+  }
+  .flex-evenly {
+    @apply flex justify-evenly;
+  }
+
+  // For testing only ignore it
   .btn-success-test {
     @apply bg-custom-light-green text-white min-w-[90px] h-[50px] py-[13px] px-[20px] font-poppins-semibold rounded-[4px] text-base 
     disabled:outline disabled:outline-1 disabled:opacity-50 disabled:bg-white disabled:text-black;
